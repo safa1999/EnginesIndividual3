@@ -123,7 +123,7 @@ public class Movement : MonoBehaviour
         if (Input.GetButtonUp("Fire2") || !coll.onWall || !canMove)
         {
             wallGrab = false;
-            wallSlide = false;
+            wallSlide = false; 
         }
 
         // When on the ground and not dashing
